@@ -138,9 +138,9 @@ while not game_over:
     text = "Score:" + str(score)
     label = myFont.render(text, 1, YELLOW)
     screen.blit(label, (WIDTH-200, HEIGHT-40))
-    text1 = "Creator: vickky"
-    label1 = myFont.render(text1, 1, YELLOW)
-    screen.blit(label1, (0, HEIGHT-40))
+    #text1 = "Creator: Vignesh"
+    #label1 = myFont.render(text1, 1, YELLOW)
+    #screen.blit(label1, (0, HEIGHT-40))
 
     if collision_check(enemy_list, player_pos):
         crash()
